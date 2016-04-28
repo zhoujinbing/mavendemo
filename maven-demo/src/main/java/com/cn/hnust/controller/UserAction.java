@@ -27,6 +27,7 @@ public class UserAction
         User user = service.getUserById( userId  );
         System.out.println(user.getUserName());
         mv.addObject( "user", user );
+        System.out.println("aa");
         return mv;
     }  
 }
